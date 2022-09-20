@@ -14,13 +14,16 @@ sampleDict = {
 }
 
 
+print(sampleDict['class']['student']['marks']['history'])
 
 
 # 2) Add 2 inches to the son's height.
+print()
 
-dict={"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
+dict = {"son's name": "Lucas", "son's eyes": "green", "son's height": 32, "son's weight": 25}
 
-
+new_height = dict["son's height"] + 2
+print(new_height)
 
 
 
@@ -32,7 +35,10 @@ sampleDict = {
      'emp3': {'name': 'Brad', 'salary': 6500}
 }
 
+print()
 
+sampleDict['emp3']['salary'] = 8500
+print(sampleDict)
 
 
 
